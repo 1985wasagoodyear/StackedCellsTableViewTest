@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3F2AE7E923020D07007A3D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AE7E823020D07007A3D8A /* AppDelegate.swift */; };
-		3F2AE7EB23020D07007A3D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AE7EA23020D07007A3D8A /* ViewController.swift */; };
-		3F2AE7EE23020D07007A3D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AE7EC23020D07007A3D8A /* Main.storyboard */; };
+		3F2AE7EB23020D07007A3D8A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AE7EA23020D07007A3D8A /* TestViewController.swift */; };
 		3F2AE7F023020D09007A3D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AE7EF23020D09007A3D8A /* Assets.xcassets */; };
 		3F2AE7F323020D09007A3D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AE7F123020D09007A3D8A /* LaunchScreen.storyboard */; };
+		3F2AE7FC23020E9B007A3D8A /* StackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AE7FA23020E9B007A3D8A /* StackTableViewCell.swift */; };
+		3F2AE7FD23020E9B007A3D8A /* StackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2AE7FB23020E9B007A3D8A /* StackTableViewCell.xib */; };
+		3F2AE7FF23020EAB007A3D8A /* StackElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2AE7FE23020EAB007A3D8A /* StackElementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F2AE7E523020D07007A3D8A /* StackedCellsTableViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackedCellsTableViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2AE7E823020D07007A3D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F2AE7EA23020D07007A3D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F2AE7ED23020D07007A3D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F2AE7EA23020D07007A3D8A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		3F2AE7EF23020D09007A3D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F2AE7F223020D09007A3D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F2AE7F423020D09007A3D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2AE7FA23020E9B007A3D8A /* StackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTableViewCell.swift; sourceTree = "<group>"; };
+		3F2AE7FB23020E9B007A3D8A /* StackTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackTableViewCell.xib; sourceTree = "<group>"; };
+		3F2AE7FE23020EAB007A3D8A /* StackElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackElementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		3F2AE7E723020D07007A3D8A /* StackedCellsTableViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				3F2AE7EA23020D07007A3D8A /* TestViewController.swift */,
+				3F2AE7FE23020EAB007A3D8A /* StackElementView.swift */,
+				3F2AE7FA23020E9B007A3D8A /* StackTableViewCell.swift */,
+				3F2AE7FB23020E9B007A3D8A /* StackTableViewCell.xib */,
 				3F2AE7E823020D07007A3D8A /* AppDelegate.swift */,
-				3F2AE7EA23020D07007A3D8A /* ViewController.swift */,
-				3F2AE7EC23020D07007A3D8A /* Main.storyboard */,
 				3F2AE7EF23020D09007A3D8A /* Assets.xcassets */,
 				3F2AE7F123020D09007A3D8A /* LaunchScreen.storyboard */,
 				3F2AE7F423020D09007A3D8A /* Info.plist */,
@@ -122,9 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2AE7FD23020E9B007A3D8A /* StackTableViewCell.xib in Resources */,
 				3F2AE7F323020D09007A3D8A /* LaunchScreen.storyboard in Resources */,
 				3F2AE7F023020D09007A3D8A /* Assets.xcassets in Resources */,
-				3F2AE7EE23020D07007A3D8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +141,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F2AE7EB23020D07007A3D8A /* ViewController.swift in Sources */,
+				3F2AE7EB23020D07007A3D8A /* TestViewController.swift in Sources */,
 				3F2AE7E923020D07007A3D8A /* AppDelegate.swift in Sources */,
+				3F2AE7FC23020E9B007A3D8A /* StackTableViewCell.swift in Sources */,
+				3F2AE7FF23020EAB007A3D8A /* StackElementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F2AE7EC23020D07007A3D8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F2AE7ED23020D07007A3D8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F2AE7F123020D09007A3D8A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StackedCellsTableViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StackedCellsTableViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
